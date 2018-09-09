@@ -1,3 +1,43 @@
 #tieude{
     color: dodgerblue;
 }
+.menu-item{
+    list-style: none;
+    text-decoration: none;
+    background-color:#24292e;
+}
+header ul{
+   margin: 0;
+   padding-left: 35%;
+   height: 100px;
+   background-color:#24292e;
+}
+header ul li {
+    width: 100px;
+    float:left;
+    line-height: 100px;
+    text-align: center;
+    transition: 0.4s;
+    
+}
+header ul li a{
+    background-color: inherit!important;
+    color: white;
+    transition: 0.4s;
+}
+header ul li:hover{
+
+    background-color: white;
+    cursor: pointer;
+    
+}
+header ul li:hover a{
+    color: #24292e;
+    
+}
+#logo{
+    position: absolute;
+    left: 30px;
+    top:45px;
+    color: #fff;
+}
